@@ -1,0 +1,24 @@
+{
+  "name": "kafka-service",
+  "version": "1.0.0",
+  "description": "Kafka multi-broker administration service",
+  "main": "admin.js",
+  "scripts": {
+    "start": "node admin.js",
+    "create": "node admin.js create",
+    "list": "node admin.js list",
+    "describe": "node admin.js describe",
+    "delete": "node admin.js delete",
+    "health": "node admin.js health",
+    "info": "node admin.js info",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["kafka", "admin", "cluster", "broker"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "dotenv": "^16.3.1"
+  }
+}
